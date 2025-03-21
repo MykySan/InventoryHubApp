@@ -1,0 +1,11 @@
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\bin\Debug\net8.0\InventoryHub.Shared.deps.json
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\bin\Debug\net8.0\InventoryHub.Shared.dll
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\bin\Debug\net8.0\InventoryHub.Shared.pdb
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.AssemblyInfoInputs.cache
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.AssemblyInfo.cs
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.csproj.CoreCompileInputs.cache
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.dll
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\refint\InventoryHub.Shared.dll
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\InventoryHub.Shared.pdb
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Shared\obj\Debug\net8.0\ref\InventoryHub.Shared.dll

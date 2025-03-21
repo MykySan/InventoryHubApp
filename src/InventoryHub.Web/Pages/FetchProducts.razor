@@ -1,0 +1,59 @@
+@using System.Text.Json
+@using InventoryHub.Shared.Models
+@page "/fetchproducts"
+@inject HttpClient Http
+@inject ProductService ProductService
+
+<h3>Product List</h3>
+
+@if (isLoading)
+{
+    <p><em>Loading products...</em></p>
+}
+else if (errorMessage != null)
+{
+    <p class="text-danger">@errorMessage</p>
+}
+else if (products != null)
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - $@product.Price (@product.Stock in stock) category:@product.Category?.Name</li>
+        }
+    </ul>
+}
+
+@code {
+    private Product[]? products;
+    private string? errorMessage;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        try
+        {
+            products = await ProductService.GetProductsAsync();
+        }
+        catch (HttpRequestException ex)
+        {
+            errorMessage = $"Failed to load products: {ex.Message}";
+            Console.Error.WriteLine($"Error: {errorMessage}");
+        }
+        catch (JsonException ex)
+        {
+            errorMessage = $"Failed to deserialize products: {ex.Message}";
+            Console.Error.WriteLine($"Error: {errorMessage}");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occured: {ex.Message}";
+            Console.Error.WriteLine($"Error: {errorMessage}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

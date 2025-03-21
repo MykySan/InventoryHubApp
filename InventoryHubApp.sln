@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{449BDA09-E269-4D20-9B77-CFD0D0048F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryHub.API", "src\InventoryHub.API\InventoryHub.API.csproj", "{B4E04A31-810C-4E72-B312-61B2E63A944C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryHub.Web", "src\InventoryHub.Web\InventoryHub.Web.csproj", "{A9FD6155-CF44-46FD-9EA2-D105A0063A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryHub.Shared", "src\InventoryHub.Shared\InventoryHub.Shared.csproj", "{F6D43D0B-A547-4697-ADB1-F93526D378B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E04A31-810C-4E72-B312-61B2E63A944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E04A31-810C-4E72-B312-61B2E63A944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E04A31-810C-4E72-B312-61B2E63A944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E04A31-810C-4E72-B312-61B2E63A944C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FD6155-CF44-46FD-9EA2-D105A0063A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FD6155-CF44-46FD-9EA2-D105A0063A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FD6155-CF44-46FD-9EA2-D105A0063A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FD6155-CF44-46FD-9EA2-D105A0063A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D43D0B-A547-4697-ADB1-F93526D378B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D43D0B-A547-4697-ADB1-F93526D378B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D43D0B-A547-4697-ADB1-F93526D378B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D43D0B-A547-4697-ADB1-F93526D378B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4E04A31-810C-4E72-B312-61B2E63A944C} = {449BDA09-E269-4D20-9B77-CFD0D0048F80}
+		{A9FD6155-CF44-46FD-9EA2-D105A0063A93} = {449BDA09-E269-4D20-9B77-CFD0D0048F80}
+		{F6D43D0B-A547-4697-ADB1-F93526D378B2} = {449BDA09-E269-4D20-9B77-CFD0D0048F80}
+	EndGlobalSection
+EndGlobal
