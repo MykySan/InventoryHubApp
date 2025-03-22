@@ -1038,3 +1038,4 @@ E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\Inve
 E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Web\obj\Debug\net8.0\webcil\InventoryHub.Shared.wasm
 E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Web\obj\Debug\net8.0\compressed\l1ut8qm2r0.gz
 E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Web\obj\Debug\net8.0\compressed\n6gco1ndxg.gz
+E:\Учёба\Programming\Projects\msFS\StateManagement\InventoryHubApp\src\InventoryHub.Web\obj\Debug\net8.0\InventoryHub.Web.sourcelink.json

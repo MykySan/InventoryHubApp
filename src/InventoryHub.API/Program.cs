@@ -1,7 +1,18 @@
+using InventoryHub.API.Services;
 using InventoryHub.Shared.Models;
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .MinimumLevel.Debug()
+    .CreateLogger();
 
+builder.Host.UseSerilog();
+builder.Services.AddScoped<IProductService, InMemoryProductService>();
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
@@ -16,6 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.MapControllers();
 
 app.MapGet("/api/productlist", () =>
 {
